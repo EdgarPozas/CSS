@@ -1,0 +1,26 @@
+/*Animacion*/
+@-webkit-keyframes nombreanimacion{
+	/*cuando vaya en un %*/
+	/*va a hacer lo que este en los parentesis*/
+	0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;height:100px;width: 150px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+/*div*/
+div{
+	background-color: red;
+	position: relative;
+	width: 100px;
+	height: 200px;
+	content:"<h1>asd</h1>";
+	/*le asignamos una animacion*/
+	-webkit-animation-name:nombreanimacion;
+	/*cuanto va a durar la animacion*/
+	-webkit-animation-duration:3s;
+	/*despues de cuanto tiempo va a empezar*/
+	-webkit-animation-delay:2s;
+	/*cuatas veces se va a realizar la animación*/
+	-webkit-animation-iteration-count:3;
+}

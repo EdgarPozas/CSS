@@ -1,0 +1,28 @@
+/*tag*/
+body{font-family: Arial;}
+div{
+	width: 500px;
+	height: 500px;
+}
+/*id*/
+#id{
+	background-color: red;
+}
+/*class*/
+.clase{
+	background-color: blue;
+}
+/*children*/
+.clase>p{
+	font-size: 30px;
+	color:#ccc;
+}
+#id>p{
+	font-size: 18px;
+	color:#333;
+}
+/*atributos*/
+[data-attr="attr"]{
+	margin:20px;
+	background: white;
+}

@@ -1,0 +1,187 @@
+/*Medidas*/
+/*
+	px->pixeles
+	em->fuente mas cercana
+	cm->centimetros
+	in->pulgadas
+	%->porcentaje
+	mm->milimetros
+	pc->picas 12pt
+	pt->1/72 pulgadas
+	ex->altura fuente actual
+	///////-Principales-////////
+	%->porcentaje
+	px->pixeles
+	em->fuente masceercana
+*/
+/*padding*/
+div{
+	/*top,bottom,left,right*/
+	padding:10px;
+	/*top-bottom,left-right*/
+	padding: 10px 10px;
+	/*top,right,bottom,left*/
+	padding: 10px 10px 10px 10px;
+	/*left*/
+	padding-left: 10px;
+	/*right*/
+	padding-right: 10px;
+	/*bottom*/
+	padding-bottom: 10px;
+	/*top*/
+	padding-top: 10px; 
+}
+/*margin*/
+div{
+	/*automaticamente centrado*/
+	margin: auto;
+	/*top,bottom,left,right*/
+	margin:10px;
+	/*top-bottom,left-right*/
+	margin: 10px 10px;
+	/*top,right,bottom,left*/
+	margin: 10px 10px 10px 10px;
+	/*left*/
+	margin-left: 10px;
+	/*right*/
+	margin-right: 10px;
+	/*bottom*/
+	margin-bottom: 10px;
+	/*top*/
+	margin-top: 10px; 
+
+}
+/*width*/
+div{
+	width: 50%;
+}
+p{width: 45%;}
+/*height*/
+div{
+	height: 100px;
+}
+/*box-shadow*/
+div{
+	/*
+		x y xy color;
+		transparente
+		rgba(0,0,0,0.5)
+	*/
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+/*display*/
+div{
+	/*
+		oculta
+	*/
+	display: none;
+	/*
+		mostrada
+	*/
+	display: block;
+	/*
+		En linea
+	*/
+	display: inline-block;
+
+}
+/*font*/
+p{
+	/*famiiia fuente */
+	font-family: Arial;
+	/*tamaño de la funte*/
+	font-size: 	17px;
+	/*color*/
+	/*color fuente*/
+	color:black;
+}
+/*background*/
+body{background-color: #f1f1f1}
+div{
+	/*color de fondo*/
+	background-color:black;
+	/*imagen de fondo*/
+	/*background-image: url(ruta);*/
+}
+/*text-align*/
+p{
+	/*texto ala derecha*/
+	text-align: right;
+	/*texto ala izquierda*/
+	text-align: left;
+	/*texto al centro*/
+	text-align: center;
+}
+/*positon*/
+p{
+	/*inicial*/
+	position: inherit;
+	/*estatica*/
+	position: static;
+	/*relativa*/
+	position: relative;	
+	/*absoluta*/
+	position: absolute;	
+	/*fija*/
+	position: fixed;
+}
+/*vertical-align*/
+p{
+	/*alineaado verticalmente ala parte superior*/
+	vertical-align: top;
+	/*alineaado verticalmente ala parte inferior*/
+	vertical-align: bottom;
+	/*alineaado verticalmente ala parte de en medio*/
+	vertical-align: middle;
+}
+/*opacity*/
+div{
+	/*opacidad donde 1 es completamente*/
+	opacity: 0.1;
+}
+/*overflow*/
+div{
+	/*barras de desplazamiento ocultas*/
+	overflow: hidden;
+	/*barras mostradas automaticamente*/
+	overflow: auto;
+}
+/*left*/
+div{
+	/*de la izquierda al centro*/
+	left:40%;
+}
+/*right*/
+div{
+	/*de la derecha al centro*/
+	right:40%;
+}
+/*top*/
+div{
+	/*de la parte superior al centro*/
+	top:2cm;
+}
+/*bottom*/
+div{
+	/*de la parte inferior al centro*/
+	bottom: 3cm;
+}
+/*z-index*/
+div{
+	/*
+		se muestre encima de cuanto objetos
+	*/
+	z-index: 1;
+}
+/*zoom*/
+p{
+	/*aumentado*/
+	zoom:1;
+}
+/*border*/
+div{
+	/*solido*/
+	border:solid;
+	/*redondeado*/
+	border-radius: 10px;
+}
